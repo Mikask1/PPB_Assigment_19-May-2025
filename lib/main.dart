@@ -57,7 +57,6 @@ class _BookListState extends State<BookList> {
   int _currentTabIndex = 0;
   int _currentNotificationIndex = 0;
 
-  // List of notification functions
   final List<Future<void> Function()> _notificationFunctions = [
     () => NotificationService.createNotification(
       id: 1,
